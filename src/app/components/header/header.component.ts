@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   constructor() { }
+  toggleDarkTheme(): void {
+    document.body.classList.toggle('dark-theme');
+  }
+
 
   ngOnInit(): void {
   }

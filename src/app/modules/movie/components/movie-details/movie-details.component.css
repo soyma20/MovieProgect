@@ -6,7 +6,6 @@
   position: relative;
   bottom:680px;
   left: 20px;
-  background: black;
   border-radius: 30px;
   width: 650px;
   height: 400px;
@@ -18,12 +17,10 @@
 .title{
   font-size: 60px;
   line-height: 45px;
-  color: white;
   text-align: center;
 
 }
 .text{
-  color: white;
   text-align: center;
   margin-top: 10px;
 }
@@ -32,7 +29,6 @@
   justify-content: center;
 }
 .box{
-  color: white;
   text-align: center;
   margin: 10px;
   border: 2px solid white;
@@ -42,9 +38,8 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.genre{
-  color: black;
-  background: white;
+.movieGenre{
+
   height: 21px;
   border-radius: 5px;
   margin: 0 5px;
@@ -52,7 +47,6 @@
 }
 .overview{
   margin-top: 20px;
-  color: white;
   text-align: center;
 }
 .play{

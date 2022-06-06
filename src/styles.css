@@ -6,3 +6,57 @@
   font-weight: normal;
 }
 /* You can add global styles to this file, and also import other style files */
+body {
+  --text-color: #000000;
+  --bkg-color: #fff;
+  --btn-txt-color: white;
+  --btn-bg-color: rgb(0, 0, 0);
+  --movie-bkg-color:#000000;
+  --movie-txt-color:#fff;
+  --genres-txt-color:#000000;
+  --genres-bkg-color:#fff;
+}
+body.dark-theme {
+  --text-color: #ffffff;
+  --bkg-color: #252222;
+  --btn-txt-color: rgb(0, 0, 0);
+  --btn-bg-color: rgb(255, 255, 255);
+  --movie-bkg-color:#ffffff;
+  --movie-txt-color:#000000;
+  --genres-txt-color:#fff;
+  --genres-bkg-color:#000000;
+}
+
+body {
+  background: var(--bkg-color);
+}
+
+h1,
+p,
+a,
+h5,
+h1{
+  color: var(--text-color);
+}
+button {
+  color: var(--btn-txt-color);
+  background-color: var(--btn-bg-color);
+}
+div.genre{
+  color: var(--btn-txt-color);
+  background-color: var(--btn-bg-color);
+}
+div.content{
+  background-color: var(--movie-bkg-color);
+}
+div.text,
+div.title,
+div.box,
+div.movieGenre,
+div.overview{
+  color: var(--movie-txt-color);
+}
+div.movieGenre{
+  color: var(--genres-txt-color);
+  background: var(--genres-bkg-color);
+}
